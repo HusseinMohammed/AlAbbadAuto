@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hyperdesign.alabbadauto">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher_abbad"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_abbad"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.MainActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name_act">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.BrandsActivity"
+            android:configChanges="locale"
+            android:label="@string/title_brands" />
+        <activity
+            android:name=".activities.ModelActivity"
+            android:configChanges="locale"
+            android:label="@string/title_model" />
+        <activity
+            android:name=".activities.VehiclesDataActivity"
+            android:configChanges="locale"
+            android:label="@string/title_vehicles_result" />
+        <activity
+            android:name=".activities.VehiclesAllDataActivity"
+            android:configChanges="locale"
+            android:label="@string/title_vehicle_data" />
+        <activity android:name=".activities.InsuranceCompaniesActivity"
+            android:configChanges="locale"
+            android:label="@string/title_insurance_companies"/>
+        <activity
+            android:name=".activities.InsuranceDetailsActivity"
+            android:configChanges="locale"
+            android:label="@string/title_insurance_details" />
+        <activity android:name=".activities.SendRequestActivity" />
+        <activity android:name=".activities.ShowroomsActivity" />
+        <activity android:name=".activities.AddPriceActivity" />
+        <activity android:name=".activities.AddOptionsActivity" />
+        <activity android:name=".activities.ShowroomsData"
+            android:configChanges="locale"
+            android:label="@string/showroomData"/>
+        <activity android:name=".activities.SignupAct" />
+
+        <activity android:name=".activities.SignInAct"
+            android:configChanges="locale"
+            android:label="@string/signIn"/>
+
+        <activity android:name=".activities.BuyVehicle"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">العباد أوتو</string>
+    <string name="app_name_act">العباد أوتو</string>
+    <string name="title_home">الصفحة الرئيسية</string>
+    <string name="title_dashboard">لوحة القيادة</string>
+    <string name="title_notifications">إشعارات</string>
+
+    <string name="title_search">بحث</string>
+    <string name="item_name">اسم السيارة أو اسم الشاحنة أو ...</string>
+
+    <string name="title_vehicles">الاقسام</string>
+    <string name="title_brands">العلامات التجارية</string>
+    <string name="title_buy_car">Buy Car</string>
+    <string name="title_model">موديل</string>
+    <string name="title_vehicles_result">نتيجة المركبات</string>
+    <string name="title_vehicle_data">معلومات المركبة</string>
+    <string name="category_search">نوع الفئة</string>
+    <string name="brand_search">اسم العلامة التجارية</string>
+    <string name="title_showroom">معرض</string>
+    <string name="year_search">عام</string>
+    <string name="status_search">حالة</string>
+
+    <string name="title_description_vehicle">وصف المركبة</string>
+    <string name="title_brand_vehicle">هوندا</string>
+    <string name="title_model_vehicle">Civic</string>
+    <string name="title_year_vehicle">2016</string>
+    <string name="title_status_vehicle">جديد - مستعمل</string>
+    <string name="title_type_of_vehicle">أوتوماتيك</string>
+
+    <string name="title_price_vehicle">أسعار المركبة</string>
+    <string name="title_price_automatic_vehicle">150.000 EGP</string>
+    <string name="title_price_manual_vehicle">140.000 EGP</string>
+    <string name="title_automatic_lite_vehicle">160.000 EGP</string>
+
+    <string name="title_features_vehicle">مميزات السيارة</string>
+
+    <string name="title_type_of_motor_vehicle">Turbo</string>
+    <string name="title_motor_capacity_vehicle">1500</string>
+    <string name="title_pattern_vehicle">cylinder</string>
+
+    <string name="title_number_of_cylinders_vehicle">4</string>
+    <string name="title_engine_power_vehicle">87 </string> <!-- 87 roll/horse.minute -->
+    <string name="title_acceleration_vehicle">12.5 </string> <!--12.5 km.hour -->
+    <!-- Not Used --><string name="title_determined_deposit_vehicle">132/3400 </string> <!--132/3400 Newton.meter/roll.minute-->
+
+    <string name="title_maximum_speed_vehicle">180</string>
+    <string name="title_fuel_type_vehicle">92</string>
+
+    <string name="title_number_of_chairs_vehicle">4</string>
+    <string name="title_number_of_doors_vehicle">2</string>
+
+    <string name="title_average_fuel_consumption_vehicle">6.4 </string> <!-- 6.4 liter/100km -->
+    <string name="title_fuel_tank_capacity_vehicle">45 liter</string> <!-- 45 liter -->
+
+    <string name="radio_new_search">جديد</string>
+    <string name="radio_used_search">مستخدم</string>
+
+
+    <string name="radio_sell_search">بيع</string>
+    <string name="radio_buy_search">شراء</string>
+    <string name="radio_rent_search">تاجير</string>
+
+    <string name="search_button">بحث</string>
+
+    <string name="last_added_announcement">تمت الإضافة مؤخرا</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">إعدادات</string>
+
+    <string name="communicate">تواصل</string>
+    <string name="setting_nav">إعدادات</string>
+
+    <!--Used in overflow menu to refresh weather data-->
+    <string name="action_refresh">تحديث</string>
+
+    <string name="error_message">
+        حدث خطأ. يرجى المحاولة مرة أخرى عن طريق النقر فوق تحديث
+    </string>
+
+    <string name="results_not_found">
+لا توجد نتائج. يرجى المحاولة مرة أخرى عن طريق البحث عن عنصر آخر.
+    </string>
+
+    <string name="insurance_name">اسم التأمين</string>
+    <string name="insurance_location_on">موقع التأمين</string>
+    <string name="insurance_info">معلومات التأمين</string>
+    <string name="insurance_name_na">اسم التأمين :</string>
+    <string name="insurance_n">عباد</string>
+    <string name="insurance_address">BlaBla</string>
+    <string name="insurace_cit">مدينة التأمين :</string>
+    <string name="insurance_ar">منطقة التأمين :</string>
+    <string name="about_m">عني :</string>
+    <string name="about_me">التأمين مفيد جدا لتوفير المال الخاص بك.</string>
+
+    <string name="insurance_add">عنوان التأمين :</string>
+    <string name="insurance_count">بلد التأمين :</string>
+    <string name="insurance_country">Egypt</string>
+
+    <string name="insurance_reg">منطقة التأمين :</string>
+
+    <string name="work_tim">أوقات العمل :</string>
+
+    <string name="sendRequest">ارسل طلب :</string>
+
+
+    <string name="allCategories">جميع الفئات</string>
+    <string name="allBrands">جميع العلامات التجارية</string>
+    <string name="allModels">جميع الموديلات</string>
+    <string name="allYears">جميع السنوات</string>
+    <string name="vehicle_prices">سعر السيارة</string>
+
+    <string name="fullName">الاسم بالكامل</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمه السر</string>
+    <string name="confirmPass">تأكيد كلمة المرور</string>
+
+    <string name="error_field_required">هذه الخانة مطلوبه</string>
+    <string name="error_invalid_email">عنوان البريد الإلكتروني هذا غير صالح</string>
+    <string name="error_incorrect_password">كلمة المرور هذه غير صالحة</string>
+    <string name="error_confirm_password">كلمة تأكيد التأكيد هذه غير صالحة</string>
+
+    <string name="signIn">تسجيل الدخول</string>
+
+    <string name="exit_message">خروج</string>
+    <string name="alert_message">يرجى التحقق من اتصال الشبكة وحاول مرة أخرى</string>
+
+    <string name="showroomData">بيانات صالة العرض</string>
+
+    <string name="eng">الإنجليزية</string>
+    <string name="arab">عربى</string>
+
+    <string name="english">إنجليزي</string>
+    <string name="arabic">عربى</string>
+
+    <string name="greeting">أهلا بك</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="backslash">  /  </string>
+    <string name="signUp">تسجيل</string>
+
+    <string name="category_required">اختيار القسم مطلوب</string>
+
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="buy">شراء</string>
+
+    <string name="auction">مزاد</string>
+    <string name="add_auction">أضف علي المزاد</string>
+    <string name="min">الحد الأدنى: 20000</string>
+    <string name="max">الحد الأعلي: 500000</string>
+
+    <string name="brand">ماركة</string>
+    <string name="model">موديل</string>
+    <string name="year">عام</string>
+    <string name="status_vehicle">الحالة</string>
+
+    <string name="insurance">شركات التأمين</string>
+    <string name="title_showrooms">معارض</string>
+
+    <string name="tender">مناقصة</string>
+
+    <string name="my_account">حسابي</string>
+    <string name="sign_out">خروج</string>
+
+    <string name="items">العناصر</string>
+    <string name="noItems">لا يوجد عناصر</string>
+
+    <string name="title_insurance_details">بيانات شركات التأمين</string>
+
+    <string name="dont_have_account">ليس لديك حساب؟</string>
+
+    <string name="tender_message">رسالة المناقصة</string>
+    <string name="message">رسالة</string>
+    <string name="send_message">إرسال رسالة</string>
+
+    <string name="title_insurance_companies">شركات التأمين</string>
+
+</resources>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_all_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSignInV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginTop="16dp"
+            android:text="Sign In"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnBuyVehicle"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Buy"
+            android:background="@color/colorRed"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/viewOfBids"
+            layout="@layout/auction_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <!--<TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>-->
+
+        <TextView
+            android:id="@+id/tv_description_vehicles"
+            android:text="@string/title_description_vehicle"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:textColor="@color/colorRed"
+            >
+
+        </TextView>
+
+        <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                    <TableRow
+                        android:background="#FFFAFA"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/tv_brand"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/brand"
+                            android:fontFamily="monospace"
+                            android:textColor="@color/colorPrimaryText"/>
+
+
+                        <TextView
+                            android:id="@+id/tv_brand_vehicle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/title_brand_vehicle"
+                            android:gravity="left"
+                            android:fontFamily="monospace"
+                            android:textColor="@color/colorPrimaryText"/>
+
+                        <!--<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="API Level" />-->
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/tv_model"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/model"
+                            android:fontFamily="monospace"
+                            android:textColor="@color/colorPrimaryText"/>
+
+                        <TextView
+                            android:id="@+id/tv_model_vehicle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/title_model_vehicle"
+                            android:fontFamily="monospace"
+                            android:gravity="left"
+                            android:textColor="@color/colorPrimaryText"/>
+                        <!--<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="21" />-->
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#FFFAFA"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/tv_year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/year"
+                            android:fontFamily="monospace"
+                            android:textColor="@color/colorPrimaryText"/>
+
+                        <TextView
+                            android:id="@+id/tv_year_vehicle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/title_year_vehicle"
+                            android:gravity="left"
+                            android:textColor="@color/colorPrimaryText"/>
+                        <!--<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="19" />-->
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/tv_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/status_vehicle"
+                            android:textColor="@color/colorPrimaryText"/>
+
+                        <TextView
+                            android:id="@+id/tv_status_vehicle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/title_status_vehicle"
+                            android:gravity="left"
+                            android:textColor="@color/colorPrimaryText"/>
+                        <!--<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="18" />-->
+                    </TableRow>
+
+            </TableLayout>
+
+        <TextView
+            android:id="@+id/tv_price_vehicle"
+            android:text="@string/title_price_vehicle"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:textColor="@color/colorRed"
+            >
+
+        </TextView>
+
+        <ListView
+            android:id="@+id/lv_prices"
+            android:layout_width="match_parent"
+            android:layout_height="123dp">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/tv_feature_vehicle"
+            android:text="@string/title_features_vehicle"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:textColor="@color/colorRed">
+
+        </TextView>
+
+        <ListView
+            android:id="@+id/lv_features"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_marginBottom="32dp">
+
+        </ListView>
+
+    </TableLayout>
+
+</android.support.v4.widget.NestedScrollView>

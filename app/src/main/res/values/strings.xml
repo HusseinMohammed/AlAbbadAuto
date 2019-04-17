@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name" translatable="true">Alabbad Auto</string>
+    <string name="app_name_act">Alabbad Auto</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_search">Search</string>
+    <string name="item_name">Car Name or Truck Name or... </string>
+
+    <string name="title_vehicles">Vehicles</string>
+    <string name="title_showrooms">Showrooms</string>
+    <string name="title_insurance_companies">Insurance Companies</string>
+
+    <string name="title_add_vehicle">Add Vehicle</string>
+    <string name="title_brands">Brands</string>
+    <string name="title_buy_car">Buy Car</string>
+    <string name="title_model">Model</string>
+    <string name="title_vehicles_result">Vehicles Result</string>
+    <string name="title_vehicle_data">Vehicle Data</string>
+    <string name="title_insurance_details">Insurance Companies Data</string>
+    <string name="category_search">Category Type</string>
+    <string name="brand_search">Brand Name</string>
+    <string name="model_search">Model Name</string>
+    <string name="title_showroom">Showroom</string>
+    <string name="year_search">Year</string>
+    <string name="status_search">Status</string>
+    <string name="tender">Tender</string>
+
+
+    <string name="title_description_vehicle"><u>Vehicle Description</u>:</string>
+    <string name="title_brand_vehicle">Honda</string>
+    <string name="title_model_vehicle">Civic</string>
+    <string name="title_year_vehicle">2016</string>
+    <string name="title_status_vehicle">New - Used</string>
+    <string name="title_type_of_vehicle">Automatic</string>
+
+    <string name="title_price_vehicle"><u>Vehicle Prices</u>:</string>
+    <string name="title_price_automatic_vehicle">150.000 EGP</string>
+    <string name="title_price_manual_vehicle">140.000 EGP</string>
+    <string name="title_automatic_lite_vehicle">160.000 EGP</string>
+
+    <string name="title_features_vehicle"><u>Vehicle Features</u>:</string>
+
+    <string name="title_type_of_motor_vehicle">Turbo</string>
+    <string name="title_motor_capacity_vehicle">1500</string>
+    <string name="title_pattern_vehicle">cylinder</string>
+
+    <string name="title_number_of_cylinders_vehicle">4</string>
+    <string name="title_engine_power_vehicle">87 </string> <!-- 87 roll/horse.minute -->
+    <string name="title_acceleration_vehicle">12.5 </string> <!--12.5 km.hour -->
+    <!-- Not Used -->
+    <string name="title_determined_deposit_vehicle">132/3400 </string> <!--132/3400 Newton.meter/roll.minute-->
+
+    <string name="title_maximum_speed_vehicle">180</string>
+    <string name="title_fuel_type_vehicle">92</string>
+
+    <string name="title_number_of_chairs_vehicle">4</string>
+    <string name="title_number_of_doors_vehicle">2</string>
+
+    <string name="title_average_fuel_consumption_vehicle">6.4 </string> <!-- 6.4 liter/100km -->
+    <string name="title_fuel_tank_capacity_vehicle">45 liter</string> <!-- 45 liter -->
+
+    <string name="radio_new_search">New</string>
+    <string name="radio_used_search">Used</string>
+
+    <string name="radio_sell_search">Sell</string>
+    <string name="radio_buy_search">Buy</string>
+    <string name="radio_rent_search">Rent</string>
+
+    <string name="search_button">Search</string>
+
+    <string name="last_added_announcement">Added Recently</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="communicate">Communicate</string>
+    <string name="setting_nav">Setting</string>
+
+    <!--Used in overflow menu to refresh weather data-->
+    <string name="action_refresh">Refresh</string>
+
+    <string name="error_message">
+        An error has occurred. Please try again by clicking REFRESH
+    </string>
+
+    <string name="results_not_found">
+        No Results Found. Please try again by search for another Item.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="insurance_name">Insurance Name</string>
+    <string name="insurance_location_on">Insurance Location</string>
+    <string name="insurance_info">Insurance Info</string>
+
+    <string name="insurance_request">Send Request</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="send_request">Send Request</string>
+    <string name="recipient">Phone</string>
+    <string name="recipient_mail">Recipient Mail</string>
+
+
+    <string name="view_message">Message</string>
+    <string name="edit_message">Message</string>
+    <string name="btn_send_request">Send Request</string>
+    <string name="insurance_name_na">Insurance Name:</string>
+    <string name="insurance_n">Abbad</string>
+
+
+    <string name="insurance_add">Insurance Address :</string>
+    <string name="insurance_address">BlaBla</string>
+    <string name="insurance_count">Insurance Country :</string>
+    <string name="insurance_country">Egypt</string>
+    <string name="insurace_cit">Insurace City :</string>
+
+    <string name="insurace_city">Cairo</string>
+    <string name="insurance_reg">Insurance Region :</string>
+    <string name="insurance_region">Naser City</string>
+    <string name="insurance_ar">Insurance Area :</string>
+    <string name="insurance_area">Abbass 1st</string>
+
+    <string name="work_tim">Work Times :</string>
+    <string name="work_times">From 10:00AM to 06:00PM, From Sat to Wed</string>
+    <string name="about_m">About Me :</string>
+    <string name="about_me">Insurance is very helpful to save your money.</string>
+    <string name="sendReq">SendRequest</string>
+    <string name="sendRequest">Send Request :</string>
+
+    <string name="action_add_favourite">Add to Favorite</string>
+    <string name="action_play_next">Play Next</string>
+
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+
+    <string name="carName">Name</string>
+    <string name="carDescription">Description</string>
+    <string name="carType">Type</string>
+    <string name="carYear">Year</string>
+    <string name="carStatus">Status</string>
+    <string name="carTypeNew">New</string>
+    <string name="carTypeUsed">Used</string>
+    <string name="next">Next</string>
+
+    <string name="addPrice">Add Price</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="status">Status</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+
+
+    <string name="addOptions">Add Options</string>
+    <string name="chooseColor">Choose Color</string>
+    <string name="chooseTransmission">Choose Transmission</string>
+    <string name="chooseStyle">Choose Style</string>
+    <string name="chooseEnginePower">Choose Engine Power</string>
+    <string name="chooseAirbagsConductor">Choose Airbags conductor</string>
+
+    <string name="allCategories">All Categories</string>
+    <string name="allBrands">All Brands</string>
+    <string name="allModels">All Models</string>
+    <string name="allYears">All Years</string>
+
+    <string name="greeting">Welcome</string>
+    <string name="login">Log In</string>
+    <string name="backslash">  /  </string>
+    <string name="signUp">Sign Up</string>
+
+    <string name="fullName">FULL NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="confirmPass">CONFIRM PASSWORD</string>
+
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_incorrect_password">This password is invalid</string>
+    <string name="error_confirm_password">This confirm password is invalid</string>
+
+    <string name="error_less_than">Number is less than </string>
+    <string name="error_greater_than">Number is greater than </string>
+
+    <string name="signIn">Sign In</string>
+    <string name="vehicle_prices">vehicle price</string>
+
+    <string name="exit_message">Exit</string>
+    <string name="alert_message">Please Check Network Connection and try again</string>
+
+    <string name="items">Items</string>
+    <string name="noItems">No Items</string>
+
+    <string name="showroomData">Showroom Data</string>
+
+    <string name="eng">English</string>
+    <string name="arab">Arabic</string>
+
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+
+    <string name="category_required">Category is required</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="buy">Buy</string>
+
+    <string name="auction">Auction</string>
+    <string name="add_auction">Add Auction</string>
+    <string name="min">Min: 20000</string>
+    <string name="max">Max: 500000</string>
+
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="year">Year</string>
+    <string name="status_vehicle">Status</string>
+
+    <string name="insurance">Insurance Companies</string>
+
+    <string name="my_account">My Account</string>
+    <string name="sign_out">Sign out</string>
+
+    <string name="dont_have_account">Do not have an account?</string>
+    <string name="tender_message">Tender Message</string>
+    <string name="message">Message</string>
+    <string name="send_message">Send Message</string>
+
+
+</resources>

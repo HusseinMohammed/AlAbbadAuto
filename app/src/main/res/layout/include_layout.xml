@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="false"
+    app:layout_behavior="@string/last_added_announcement">
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv_description_vehicles"
+            android:text="@string/title_description_vehicle"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            android:fontFamily="monospace"
+            >
+
+        </TextView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_vehicles_first_all_data"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:background="#FFFAFA"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_brand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Brand"
+                        android:fontFamily="monospace" />
+
+                    <TextView
+                        android:id="@+id/tv_brand_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_brand_vehicle"
+                        android:fontFamily="monospace" />
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="API Level" />-->
+                </TableRow>
+
+                <TableRow
+                    android:background="#ECEFF1"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_model"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Model"
+                        android:fontFamily="monospace" />
+                    <TextView
+                        android:id="@+id/tv_model_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_model_vehicle"
+                        android:fontFamily="monospace" />
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="21" />-->
+                </TableRow>
+
+                <TableRow
+                    android:background="#FFFAFA"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/tv_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Year"
+                        android:fontFamily="monospace" />
+                    <TextView
+                        android:id="@+id/tv_year_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_year_vehicle" />
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="19" />-->
+                </TableRow>
+
+                <TableRow
+                    android:background="#ECEFF1"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Status" />
+
+                    <TextView
+                        android:id="@+id/tv_status_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_status_vehicle" />
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="18" />-->
+                </TableRow>
+
+            </TableLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_price_vehicle"
+            android:text="@string/title_price_vehicle"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            android:fontFamily="monospace"
+            >
+
+        </TextView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_vehicles_second_all_data"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:background="#ECEFF1"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_manual"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Manual"
+                        android:fontFamily="monospace" />
+
+                    <TextView
+                        android:id="@+id/tv_manual_price_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_price_manual_vehicle"
+                        android:fontFamily="monospace"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="21" />-->
+                </TableRow>
+
+                <TableRow
+                    android:background="#FFFAFA"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_automatic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Automatic"
+                        android:fontFamily="monospace" />
+
+                    <TextView
+                        android:id="@+id/tv_automatic_price_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_price_automatic_vehicle"
+                        android:fontFamily="monospace" />
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="API Level" />-->
+                </TableRow>
+
+                <TableRow
+                    android:background="#ECEFF1"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_automatic_lite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Automatic Lite"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/tv_automatic_lite_price_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_automatic_lite_vehicle"
+                        android:fontFamily="monospace" />
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="19" />-->
+                </TableRow>
+
+                <!--<TableRow
+                    android:background="#ECEFF1"
+                    android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="4.3" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Android Jelly Bean" />
+                    &lt;!&ndash;<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="18" />&ndash;&gt;
+                </TableRow>-->
+
+            </TableLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_feature_vehicle"
+            android:text="@string/title_features_vehicle"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            android:fontFamily="monospace">
+
+        </TextView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_vehicles_third_all_data"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:background="#FFFAFA"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_motor_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Motor Type"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/tv_motor_type_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_type_of_motor_vehicle"
+                        android:fontFamily="monospace"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="API Level" />-->
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ECEFF1"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_motor_capacity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Motor Capacity"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/tv_motor_capacity_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_motor_capacity_vehicle"
+                        android:fontFamily="monospace"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="21" />-->
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#FFFAFA"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_pattern"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Pattern"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/tv_pattern_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_pattern_vehicle"
+                        android:fontFamily="monospace"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="19" />-->
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ECEFF1"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_num_of_cylinder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Number of cylinder"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/tv_num_of_cylinder_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_number_of_cylinders_vehicle"
+                        android:fontFamily="monospace"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="18" />-->
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#FFFAFA"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_power_engine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Engine Power(h/r.m)"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/tv_power_engine_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_engine_power_vehicle"
+                        android:fontFamily="monospace"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="API Level" />-->
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ECEFF1"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_acceleration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Speed (km.hour)"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/tv_acceleration_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_acceleration_vehicle"
+                        android:fontFamily="monospace"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="21" />-->
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#FFFAFA"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_maximum_speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Maximum Speed"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/tv_maximum_speed_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_maximum_speed_vehicle"
+                        android:fontFamily="monospace"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="19" />-->
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ECEFF1"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_type_of_fuel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fuel Type"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/tv_type_of_fuel_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_fuel_type_vehicle"
+                        android:fontFamily="monospace"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="18" />-->
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#FFFAFA"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_average_fuel_consumption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fuel Consumption"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/tv_average_fuel_consumption_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_average_fuel_consumption_vehicle"
+                        android:fontFamily="monospace"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="19" />-->
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ECEFF1"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_tank_capacity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tank Capacity(L)"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/tv_tank_capacity_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/title_fuel_tank_capacity_vehicle"
+                        android:fontFamily="monospace"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="18" />-->
+
+                </TableRow>
+
+            </TableLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </TableLayout>
+
+</ScrollView>

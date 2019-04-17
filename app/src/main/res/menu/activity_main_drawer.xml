@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/title_home" />
+
+        <!--<item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="@string/title_search" />-->
+
+        <item
+            android:id="@+id/nav_vehicles"
+            android:icon="@drawable/ic_search"
+            android:title="@string/title_vehicles" />
+
+        <item
+            android:id="@+id/nav_showrooms"
+            android:icon="@drawable/sports_car"
+            android:title="@string/title_showrooms" />
+
+        <item
+            android:id="@+id/nav_insurance_companies"
+            android:icon="@drawable/car_insur"
+            android:title="@string/insurance" />
+
+    </group>
+
+    <item android:title="@string/communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_send_message"
+                android:icon="@drawable/tender"
+                android:title="@string/tender" />
+
+            <item
+                android:id="@+id/nav_my_account"
+                android:icon="@drawable/ic_account"
+                android:title="@string/my_account" />
+
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/logout_sign"
+                android:title="@string/sign_out"
+                android:visible="false"/>
+        </menu>
+
+    </item>
+
+</menu>
